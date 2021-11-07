@@ -1,0 +1,64 @@
+@font-face {
+    font-family: LP Allema;
+    src: url('../fonts/LP Allema.ttf');
+}
+body {
+	overflow-x: hidden;
+    overflow-y: hidden;
+  font-size: 62.5%;
+  background: #141414;
+  color: #ffdada;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body:before, body:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../images/countdown-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  z-index: -100;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+body:after {
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -90;
+}
+
+ul#countdown {
+font-family: 'LP Allema';
+  margin: 0 auto;
+  position: absolute;
+  padding: 10px;
+  left:25%;
+  top: 49%;
+  transform: translateY(-50%);
+  width: 50%;
+  color: #fff;
+  border: 1px solid #adafb2;
+  border-width: 1px 0;
+  overflow: hidden;
+  font-weight: bold;
+}
+ul#countdown li {
+  margin: 0 -3px 0 0;
+  display: inline-block;
+  width: 25%;
+  font-size: 72px;
+  font-size: 6vw;
+  text-align: center;
+}
+ul#countdown li .label {
+  color: #adafb2;
+  font-size: 18px;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}

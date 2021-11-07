@@ -1,0 +1,50 @@
+@charset "utf-8";
+	
+	/*----*****---- << Columns >> ----*****----*/
+	
+	.column { margin: 0 0 0 2.6%; float: left; min-height: 1px; position: relative; }
+	.column.first { margin-left: 0; }	
+	
+	.dt-sc-full-width, .dt-sc-one-column { width: 100%; }
+	.column.dt-sc-full-width, .column.dt-sc-one-column { margin-left: 0; }
+	
+	.dt-sc-one-fourth { width: 23%; }
+	.dt-sc-one-half { width: 48.7%; }
+	.dt-sc-one-third { width: 31.6%; }
+	.dt-sc-three-fourth { width:74.4%; }	
+	.dt-sc-two-third { width:65.8%; }
+	
+	.dt-sc-one-fifth { width: 17.9%; }
+	.dt-sc-four-fifth { width: 79.5%; }
+	.dt-sc-three-fifth { width: 59%; }
+	.dt-sc-two-fifth { width: 38.4%; }
+	
+	.dt-sc-one-sixth { width: 14.5%; }
+	.dt-sc-two-sixth { width: 31.6%; }
+	.dt-sc-three-sixth { width: 48.7%; }
+	.dt-sc-four-sixth { width: 65.8%; }
+	.dt-sc-five-sixth { width: 82.9%; }		
+	
+	.column img { max-width: 100%; height: auto; }
+	
+	.dt-sc-one-half iframe, .dt-sc-one-third iframe, .dt-sc-one-fourth iframe, .dt-sc-three-fourth iframe, .dt-sc-two-third iframe, iframe { max-width: 100%; }
+	embed, iframe, object, video { max-width: 100%; }
+	
+	.column.no-space { margin-left: 0; margin-right: 0; }
+	.column.no-space.dt-sc-one-fourth { width: 25%; } 	
+	.column.no-space.dt-sc-one-third { width: 33.3%; }
+	.column.no-space.dt-sc-one-half { width: 50%; }
+	.column.no-space.dt-sc-one-fifth { width: 20%; }
+	.column.no-space.dt-sc-one-sixth { width:16.6%; }
+	
+	.column.no-space.dt-sc-two-third { width: 66.6%; }	
+	.column.no-space.dt-sc-three-fourth { width: 75%; }
+	.column.no-space.dt-sc-two-third { width: 66.6%; }
+	.column.no-space.dt-sc-four-fifth { width: 80%; }
+	.column.no-space.dt-sc-three-fifth { width: 60%; }
+	.column.no-space.dt-sc-two-fifth { width: 40%; }		
+	.column.no-space.dt-sc-two-sixth { width: 33.2%; }
+	.column.no-space.dt-sc-three-sixth { width: 49.8%; }
+	.column.no-space.dt-sc-four-sixth { width: 66.4%; }
+	.column.no-space.dt-sc-five-sixth { width: 83%; }
+	

@@ -1,0 +1,70 @@
+#bigbox1{
+    margin-left: -70px;
+}
+#bigbox1 #customer1 img{
+    border:7px solid white;
+    border-radius: 50%;
+    margin-top: -140px;
+    position: relative;
+    display: inline;
+    width:300px;
+    height:300px;
+    margin-left: 200px;
+}
+.textabous1{
+    position: absolute;
+    display: inline;
+    margin-top: 50px;
+    margin-left: 255px;
+}
+.textabous2{
+    position: absolute;
+    display: inline;
+    margin-top: 50px;
+    margin-left: 815px;
+}
+.textabouts11{
+    position: absolute;
+    display: inline;
+    width:300px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 285px;
+}
+.textabouts21{
+    position: absolute;
+    display: inline;
+    width:300px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 770px;
+}
+#contact{
+    margin-top: 100px;
+    position: absolute;
+    height: 100px;
+    width: 1000%;
+}
+#contact1 img{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact1 #contac11{
+    margin-left: 210px;
+}
+#contact2{
+    top:0;
+    position: absolute;
+    margin-left: 120px;
+}
+#contact2 #contact12{
+    margin-left: 600px;
+}
+#contact2 img{
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
